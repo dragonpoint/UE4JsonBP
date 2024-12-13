@@ -1,8 +1,7 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 #include "JsonBP.h"
-#include "JsonObject.h"
-
+#include "Runtime/Json/Public/Dom/JsonObject.h"
 
 void FJsonBPModule::StartupModule()
 {
