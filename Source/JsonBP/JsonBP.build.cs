@@ -8,6 +8,7 @@ public class JsonBP : ModuleRules
 	{
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
         //bUseUnityBuild  = false;
+        PrecompileForTargets = PrecompileTargetsType.Any;
 
         PrivateIncludePaths.AddRange(
 			new string[] {
